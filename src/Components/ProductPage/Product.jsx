@@ -19,10 +19,10 @@ const Product = () => {
     <div>
       <div className="p-5 h-full bg-gray-100">
         <div className="flex justify-between">
-          <h1 className="text-xl mt-3">Product Management</h1>
+          <h1 className="text-xl mt-3 font-popps text-secondary">Product Management</h1>
           <Link
             to="/AddProduct"
-            className="border-spacing-1 py-3 px-4 mb-4 bg-black text-white rounded-3xl font-bold"
+            className="border-spacing-1 py-3 px-4 mb-4 bg-primary font-popps text-white rounded-3xl font-bold"
           >
             + Add Product
           </Link>

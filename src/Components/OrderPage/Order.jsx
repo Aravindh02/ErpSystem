@@ -58,24 +58,24 @@ const Order = () => {
   return (
     <>
       <div className="p-5 h-full bg-gray-100">
-        <h1 className="text-xl mb-2">Order Management</h1>
+        <h1 className="text-xl mb-2 font-popps text-secondary">Order Management</h1>
         <div className="overflow-auto rounded-lg shadow md:block">
           <table className="w-full ">
             <thead className="bg-gray-50 border-b-2 border-gray-200">
               <tr>
-                <th className="p-3 pl-8 w-60text-sm font-semibold tracking-wide text-left">
+                <th className="p-3 pl-8 text-primary w-60 text-sm font-semibold tracking-wide text-left">
                   Order ID
                 </th>
-                <th className="p-3 w-72 text-sm font-semibold tracking-wide text-left">
+                <th className="p-3 w-72 text-primary text-sm font-semibold tracking-wide text-left">
                   Customer Name
                 </th>
-                <th className="p-3 w-60 text-sm font-semibold tracking-wide text-left">
+                <th className="p-3 w-60 text-primary text-sm font-semibold tracking-wide text-left">
                   Order Date
                 </th>
-                <th className="p-3 w-60 text-sm font-semibold tracking-wide text-center ">
+                <th className="p-3 w-60 text-primary text-sm font-semibold tracking-wide text-center ">
                   Status
                 </th>
-                <th className="p-3 text-sm font-semibold tracking-wide text-center">
+                <th className="p-3 text-sm  text-primary font-semibold tracking-wide text-center">
                   Action
                 </th>
               </tr>

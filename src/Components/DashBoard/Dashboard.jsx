@@ -22,8 +22,8 @@ const Dashboard = () => {
   });
   return (
     <>
-      <div className="md:flex justify-around gap-x-36 lg:gap-x-14 gap-y-2">
-        <div className="container px-8 w-1/2 grid grid-cols-2 gap-x-56 lg:gap-x-14 gap-y-2">
+      <div className="md:flex justify-around gap-x-36 lg:gap-x-14 gap-y-2  bg-litwhite">
+        <div className=" mt-6 container px-8 w-1/2 grid grid-cols-2 gap-x-56 lg:gap-x-14 gap-y-2">
           <DetailedBox title={title} value={totalProduct.length} />
           <DetailedBox title={title2} value={totalOrders.length} />
           <DetailedBox title={title3} value={ordersPerMonth} />
@@ -31,7 +31,7 @@ const Dashboard = () => {
         </div>
         <BarGraph />
       </div>
-      <div className="md:flex justify-around lg:gap-x-12 gap-y-2">
+      <div className="md:flex justify-around lg:gap-x-12 gap-y-2 bg-litwhite">
         <LineGraph />
         <StockAlert />
       </div>

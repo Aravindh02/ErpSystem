@@ -39,8 +39,8 @@ const data = [
 
 const BarGraph = () => {
   return (
-    <div className=''>
-    <h3 className="min-w-20 text-center font-bold ml-12 text-base  ">Top 5 Products By sales</h3>
+    <div className='mt-8'>
+    <h3 className="min-w-20 text-center font-popps text-secondary font-bold ml-12 text-lg ">Top 5 Products By sales</h3>
        <div>
       <ComposedChart
         layout="vertical"
@@ -61,7 +61,7 @@ const BarGraph = () => {
         </YAxis> 
         <Tooltip />
        
-        <Bar dataKey="pv" barSize={20} fill="rgb(2 6 23)" />
+        <Bar dataKey="pv" barSize={20} fill="#413ea0" />
       </ComposedChart>
       
     </div>

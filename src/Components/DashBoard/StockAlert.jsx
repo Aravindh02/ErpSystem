@@ -8,20 +8,20 @@ const StockAlert = () => {
   );
   return (
     <div className="  px-4">
-      <h3 className="font-bold text-base text-center pb-3 ">
+      <h3 className="font-bold font-popps text-secondary text-base text-center pb-3 ">
         Stock Alert Quantity
       </h3>
       <div className="overflow-x-auto">
         <table className=" border-2 ml-10 whitespace-nowrap">
           <thead>
-            <tr className="bg-gray-200 ">
-              <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">
+            <tr className="bg-graphclr ">
+              <th className="px-6 py-3 text-left text-sm font-semibold text-litwhite uppercase tracking-wider">
                 S.NO
               </th>
-              <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-sm font-semibold text-litwhite uppercase tracking-wider">
                 Stock Name
               </th>
-              <th className="px-4 py-3 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">
+              <th className="px-4 py-3 text-left text-sm font-semibold text-litwhite uppercase tracking-wider">
                 Stock Quantity
               </th>
             </tr>

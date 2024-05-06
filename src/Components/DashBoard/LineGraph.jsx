@@ -20,7 +20,7 @@ const data = [
 const LineGraph = () => {
   return (
     <div className="  flex-col justify-center items-center">
-      <h1 className="min-w-20 text-center font-bold ml-12 text-base">
+      <h1 className="min-w-20 text-center font-popps text-secondary font-bold ml-12 text-base">
         Monthly Sales Performance
       </h1>
       <LineChart

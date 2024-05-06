@@ -40,7 +40,7 @@ const CalendarPage = () => {
         {highlightDate(date) && (
           <>
             {orderIds && (
-              <p className="bg-gray-500 text-white w-10 h-9 flex items-center justify-center mx-auto ">
+              <p className="bg-primary text-white font-semibold w-10 h-9 flex items-center justify-center mx-auto ">
                 {orderIds}
               </p>
             )}
@@ -79,7 +79,7 @@ const CalendarPage = () => {
               </div>
             ))}
             <button
-              className="w-full py-2 mt-4 text-white bg-black font-bold rounded-lg hover:scale-105 hover:ease-in-out delay-200 focus:outline-none"
+              className="w-full py-2 mt-4 text-white bg-primary font-bold rounded-lg hover:scale-105 hover:ease-in-out delay-200 focus:outline-none"
               onClick={closeModal}
             >
               Close

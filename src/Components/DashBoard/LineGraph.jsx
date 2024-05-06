@@ -7,6 +7,7 @@ import {
   YAxis,
   Tooltip,
   Label,
+  ResponsiveContainer
 } from "recharts";
 
 const data = [
@@ -19,15 +20,18 @@ const data = [
 ];
 const LineGraph = () => {
   return (
-    <div className="  flex-col justify-center items-center">
+    <ResponsiveContainer width={450} height={350}>
+       <div className="  flex-col justify-center items-center">
       <h1 className="min-w-20 text-center font-popps text-secondary font-bold ml-12 text-base">
         Monthly Sales Performance
       </h1>
+      
       <LineChart
-        width={510}
-        height={210}
+        width={390}
+        height={320}
         data={data}
         margin={{ top: 15, right: 5, bottom: 5, left: 26 }}
+        
       >
         <Line type="monotone" dataKey="sales" stroke="#8884d8" />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
@@ -43,8 +47,9 @@ const LineGraph = () => {
         </YAxis>
         <Tooltip />
       </LineChart>
-      <div></div>
     </div>
+    </ResponsiveContainer>
+   
   );
 };
 

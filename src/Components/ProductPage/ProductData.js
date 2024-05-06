@@ -67,7 +67,7 @@ const products = [
     name: "Sunglasses",
     category: "Accessories",
     price: 1499,
-    stock_quantity: 65,
+    stock_quantity: 5,
   },
   {
     id: 11,
@@ -81,7 +81,7 @@ const products = [
     name: "Dress",
     category: "Cloths",
     price: 2999,
-    stock_quantity: 55,
+    stock_quantity: 18,
   },
   {
     id: 13,
@@ -95,7 +95,7 @@ const products = [
     name: "Coffee Maker",
     category: "Home Appliances",
     price: 5599,
-    stock_quantity: 40,
+    stock_quantity: 12,
   },
   {
     id: 15,
